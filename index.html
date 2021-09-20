@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+body { 
+  /* background-image: url("https://www.zerto.com/wp-content/uploads/2021/04/IS-15429_ZertoONIBMCloud_450_300_blog.png");  */
+  font-family: 'Noto Serif', serif;
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgNCA0HBw0HBwcHCA0HBwcHBw8ICQcNFREWFhURExMYHSggGCYlGxMTITEtKCkrLjEuFx8/ODM4QygxLjcBCgoKDQ0NFQ8NFSsZFRkrKyswKzctKysrKy4tKystKzc3KysrLSsrLS0tKys1MC0vLS0rKystLS0rKy03Ky8tN//AABEIAKgBKwMBEQACEQEDEQH/xAAbAAEBAQADAQEAAAAAAAAAAAAAAgMBBAUGB//EACoQAQEBAAIBAwMDAwUAAAAAAAABAgMRBAUSYTFisSEjMiIzQxNBUZHh/8QAGwEBAQEBAQEBAQAAAAAAAAAAAAIDAQQFBgf/xAAoEQEBAAIBAgUDBQEAAAAAAAAAAQIRAxIxBAUiQVFxscETIWGB4UL/2gAMAwEAAhEDEQA/APw0AAAAAAAAAAAAAAFSqlcXKuVKpVxxUqomrlXHFxcSqKji4uOKi4lcVEqi45VRcSuLiVxUcVFxyri4lUXHFxUSuLjiouJVIuJq5FSOK6VofDPwT9CAAAAAAAAAAAAAAAqVUri5WkqVyqlcVKuJq4uVK4uJq4uOLi4mqi45VxcTVRcSuLiVxccXFxNVFxyri4lcXHFxcSqRciauRciVyKkcV0rTj4R+AfowAAAAAAAAAAAAAAAFyrlSuVcripVyprSVcSuVpKlcXEri45VxcSqLiauNI40i4hcXHFRcSuNImtIuOVci4mqkXImrkaSJrSRciVyLkc25U4+Cfz1+kAAAAAAAAAAAAAAAAAXKuVNXK0lSuVcqbGkrSVK5VxNaRpHFxcTVxpE1caRLSLiFxpHFxcSvLSJaZi4lcjSRK5GkiK0zFyOLkXIm1S+zjjtO3dPg38/fowAAAAAAAAAAAAAAAAHMBWauVNjSVpKlpmtJU1ea0lTWma0iGkaRNXlpE1pGkS0y0iGkaRNXGkTWmY0ia0zGkiauRpIitMxpIlpI0kTapXZxNqbXZE9p2p8M/BP0IAAAAAAAAAAAAAAAAADmAvNaSpsaZrSVFaZrWVNaZrSVFa5axNaZaRFaRrEtMtYitI0ia0y0iK1zGsia0kayIrTMaSJrTMayJtWrslFqLVaRam11Padu6fFPwr9AAAAAAAAAAAAAAAAAAAA5ldgvNaSosa5rWVNjXNa41Fa5rWIrXLWIrTLbFFa5axFa5axFa5jXGIrXMayJrXMbSM7WuY1kTatfZKNVFqpEWotdRai1Wk9p26+NfiX3gAAAAAAAAAAAAAAAAAAAHMrso0zppjUWNsVvjUWNsVtjWda5rbFFbZbYs62w2xRWuW2KK2xG+MZ1tmNsYi1tjLbGM7V/Rp2SjWmdqpEXSLVSItRarSbU2uuO07d0+PfjH3AAAAAAAAAAAAAAAAAAAAAHMrsuhrjTbHJnY3xW+NZ2N8V6MazrfDfFnW+HoxZ1viN8YyrfEejGM7W+MvRjizta/Rp2T3Z60i5OyM7plauRNqLVaTam13SbU7dcdubd0+Sfj32gAAAAAAAAAAAAAAAAAAAAAHOb07Lpyxvx6ejDJnY7PHXpwrKx2eN6sGVdnjerBjXZ449OEZWuzx5erDFjlW30jfsjuz1tllkqRndM7kuRF0ztVpN0m13SbU7d0m1zbrjtzY+Wfkn2QAAAAAAAAAAAAAAAAAAAAAAFZ10qXTljs8W3q48mOUd3ir3cdYZO5xR7eOPPk7vDh7uPFhlXZ/ST5er9sYx7st7Y5ZrkZ60yuS5Gd0i5K0m6Ra7pNrm3dOO07d047c26dmx8w/KvrgAAAAAAAAAAAAAAAAAAAAAAALxrq/C8ctVyzb0PG32+jw57eXOaer42e31+DHbxcl09CdZnz+H0ZrCfy83djvlY5ci5iy1tjc1yM7tFyVpxdJ6ndJ7Tt3TjtzbujtzZpx2bdO3Nj5t+ZfVAAAAAAAAAAAAAAAAAAAAAAAAAbePy+3U7/j3/ANNuHk6Mv37Izx3H0/j7xjjmr1d6ncn/ABH6vhyx48Jb3r4+cuWWvZG/I7Rlz7VOPTO8jK8i+lN2jrd049znUace427o9zmzTj3Gw7Nh25sOzY+efnH1AAAAAAAAAAAAAAAAAAAAAAAAAHs+nene3E8ryZ/VZ3wcWp9Pur7Xg/A9GP63NP39p+b+Hg5/EbvRh/ddfk5N8e+u7ePv9PtefPky48tezXHGZT+WmPI7a4820Xj00nI0nInpV71dbmnPvd6nNHud6jTn3GzR27s0dmw7Njns248F+ffSAAAAAAAAAAAAAAAAAAAAAAAAe56R6XJJ5flT7uDh1Pr91fe8u8v1Jzc0+k/N/D5/ifE/8cf913/J32+hz5bebjmnk+Tjt8fnx29vHdOj3c34/DwbuF/h6O7bHK3x5Gdxa522maLFzS5k5pU0rqTpz7ndmnPbu3NOe3dmjs25pz27s08R8J9AAAAAAAAAAAAAAAAAAAAAAAB7no3pXcnl+VP6f5cPDqfy+6vveW+Xb1zc0/b2n5r5/ivE/wDHH/devy7fY5MnhxjpcteLkrfF0uWPDyR6MXS5sPDyYvRjXX7ub8PNu41p3bY22xzRY0ztrMkWNJppMnNKmlbc05lVtzTnt3bmnPbu3HPZseO+M9wAAAAAAAAAAAAAAAAAAAAAD2/RfSvd15flT9v+XDxan9z7r8fl93y3y7q1zc09PtPn+fp9/p3+f4rxWvRh3969vk0+7nk+fI63JXlzrWR1uR5s20dbkeXNri63JHlzjWV1uTLy54tsax7svwx7L7tc6a45JsaZ01mSLFzS5U6VKqVzSpVbccyu7cc9u7NPKfJewAAAAAAAAAAAAAAAAAAAAB7Xo3pPv68ryp+1/Lh4dT+7834/L7nlvlvXrm556fafP+ff6d/B4rxXT6OPv8/D3t6foMsnzZGG6wyrSRhuvPlWkYbefJpGG2GTSMNx58o1jDcYZRpKw3l58sWkrP6M+yu686aTJNjSaaSpsXKuVOlSqlc0qVW3NOe3duPNfMesAAAAAAAAAAAAAAAAAAAB7Xo3pPv68ryp+z9eLi1P7vzfj8vt+W+W9eubmnp9p8/59/o8HivFdPow7/Pw9/Wn6LKvmSMdVjlVyMt1jlWkY6rHJcY7Y5NIx0xyXGWmGTSMdxjlFxjuMcouVlrLHKNJWf0Z9lNM6aSpsXK0lTYuVUqVSrlc057d246D570gAAAAAAAAAAAAAAAAAAPZ9F9K9/XleTP2Z+vFxX/N834/L7flvlv6muXmnp9p8/593g8V4rp9GHf7PodX/wAfo7XzIy1WVqpGWqyyq4y1WVq4y0xyXGemVXGWmVXGWmVXGWoysXGWoxyioy1GVi5WeoysXKj6I7KXKuVNi5Vyp0qVcrmldq246bxNwAAAAAAAAAAAAAAAAAHsejelf6nXk+TOuCfrx8d/zfN+H2vLfLf1NcvNPR7T5/z7vD4rxXT6MO/2fRW/7T9JP0kj9Ja+XGeqi12M7WVq4z1WVq4z0zqozrKrjLTOqZ6Z1cZ6ZVUZ6ZVcZ6jOxUZajKxcZ6jOxUZ6jKxcqfons6uVcqbFSrlcV2rbmn//2Q==");
+  background-size: cover;
+} 
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-nav{
+    flex-direction: row;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.img-col{
+ text-align: center;
+ margin-top: 5%;
+}
+.h2-login{
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.card-col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    top: 70px;
+}
+.btn{
+    margin-left: 30%;
+    min-width: 35%;
+}
+.card{
+    /*
+    min-width: 22rem;
+    border-radius: 32px;    
+    background-color: #e6f2ff;
+    box-shadow: 7px 7px 7px 0px #0086bb;
+    */
+    min-width: 22rem;
+    border-radius: 32px;
+    background-color: #ffffff1c;
+    color: white;
+    box-shadow: 5px 4px 13px 0px #0086bb;
+    border: 2px solid #4d9af3a8;
+}
+</style>
+<body>
+    <!-- <div class="bg"></div> -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">IBM CLOUD</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">📘 Catalog</li>
+            <li class="nav-item">💰 Cost Estimator</li>
+            <li class="nav-item">📜 Docs</li>
+        </ul>
+    </nav>
+    <div class="main_div container-fluid">
+       
+      <div class="row">
+        <div class="col-5 img-col">
+            <img src="cloud.png" alt="">
+            <h1 class="h2-login">Login to IBM <span style="font-size: 50px;">⇢</span></h1>
+        </div>
+        <div class="col card-col">
+            <div class="card" >
+                <div class="card-header" style="text-align: center; margin: 0px; padding: 10px;"><h4 style=" font-weight: bold;">LOGIN</h4></div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="card-footer" style="text-align: center;">Don't have account ? <span style="color:tomato; font-weight: bold;">Sign Up</span></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
